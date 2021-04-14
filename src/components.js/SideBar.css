@@ -1,0 +1,22 @@
+.sidebar {
+  position: sticky;
+  z-index: 100;
+  left: 0px;
+  top: 56px;
+}
+
+.sidebar__open {
+  width: 240px;
+  height: 100vh;
+  padding-top: 12px;
+}
+
+.sidebar__barrier {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.sidebar__closed {
+  padding-top: 12px;
+  width: 72px;
+}

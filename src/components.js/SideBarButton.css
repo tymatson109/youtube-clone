@@ -1,0 +1,33 @@
+.sidebarbutton__open {
+  padding: 0 24px;
+  height: 48px;
+  color: #606060;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.sidebarbutton__container {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarbutton__container > .MuiSvgIcon-root {
+  width: 20px;
+  height: 20px;
+}
+
+.sidebarbutton__children {
+  margin-right: 24px;
+}
+
+.sidebarbutton__closed {
+  height: 48px;
+  color: #606060;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+}

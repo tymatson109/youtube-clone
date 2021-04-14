@@ -1,0 +1,14 @@
+.app {
+  z-index: 10;
+}
+
+.app__mainContainer {
+  display: flex;
+}
+
+.app__header {
+  position: sticky;
+  z-index: 400;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.985);
+}
